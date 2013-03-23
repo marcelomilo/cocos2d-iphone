@@ -1,4 +1,3 @@
-
 /*
  * cocos2d for iPhone: http://www.cocos2d-iphone.org
  *
@@ -183,6 +182,7 @@ DEPRECATED_ATTRIBUTE @interface SlideInTTransition : CCSlideInTTransition {} @en
 DEPRECATED_ATTRIBUTE @interface Spawn : CCSpawn {} @end
 DEPRECATED_ATTRIBUTE @interface Speed : CCSpeed {} @end
 DEPRECATED_ATTRIBUTE @interface SplitCols : CCSplitCols {} @end
+DEPRECATED_ATTRIBUTE @interface Timer : CCTimer {} @end
 DEPRECATED_ATTRIBUTE @interface SplitColsTransition : CCSplitColsTransition {} @end
 DEPRECATED_ATTRIBUTE @interface SplitRows : CCSplitRows {} @end
 DEPRECATED_ATTRIBUTE @interface SplitRowsTransition : CCSplitRowsTransition {} @end
