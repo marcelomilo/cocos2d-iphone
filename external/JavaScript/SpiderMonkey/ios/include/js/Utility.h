@@ -20,6 +20,7 @@
 #endif
 
 #include "jstypes.h"
+#include "jstypes.h"
 
 # include "js/TemplateLib.h"
 # include "mozilla/Scoped.h"
@@ -226,6 +227,8 @@ __BitScanReverse64(unsigned __int64 val)
 # define js_bitscan_ctz64(val)  __BitScanForward64(val)
 # define js_bitscan_clz64(val)  __BitScanReverse64(val)
 # define JS_HAS_BUILTIN_BITSCAN64
+# define JS_HAS_BUILTIN_BITSCAN64
+
 #endif
 #elif (__GNUC__ >= 4) || (__GNUC__ == 3 && __GNUC_MINOR__ >= 4)
 
